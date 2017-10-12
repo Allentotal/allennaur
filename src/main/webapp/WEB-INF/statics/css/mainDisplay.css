@@ -184,7 +184,7 @@ body {
 .mainInfo {
 	/*background-color: #*/
 	width: 50%;
-	height: 200px;
+	/*height: 200px;*/
 	margin-top: 20px;
 	border-radius: 5px;
 	box-shadow: 2px 2px 5px #ccc;
@@ -192,6 +192,18 @@ body {
 }
 .mainInfo:hover {
 	box-shadow: 3px 3px 15px #ccc;
+}
+/*中部显示信息标题*/
+.mainInfoTitle {
+	padding: 5px;
+	font-size: 2em;
+	border-left: 10px solid red;
+	border-top-left-radius: 5px;
+}
+/*中部显示信息内容*/
+.mainInfoContent {
+	padding: 15px;
+	font-size: 1em;
 }
 /*页面底端版权信息区域*/
 #copyArea {
